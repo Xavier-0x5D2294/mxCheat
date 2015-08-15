@@ -10,3 +10,5 @@ CreateClientConVar("mx_esp", 1)
 return 
 end
 hook.Add("HUDPaint", "ESP", ESP)
+
+mxCheat.Notify("Included ESP")
