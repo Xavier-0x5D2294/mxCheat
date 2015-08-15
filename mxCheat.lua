@@ -34,4 +34,9 @@ function CommandList()
 end
 concommand.Add("mx_commands", CommandList)
 
+// Including the files
+include("mxcheat/esp.lua)
+include("mxcheat/bhop.lua)
+
+
 
