@@ -6,9 +6,9 @@ CreateClientConVar("mx_esp", 1)
 		local posi = ( v:GetPos() + Vector( 0,0,80 ) ):ToScreen() 
 		draw.SimpleTextOutlined(v:Nick(), "ChatFont", posi.x, posi.y - 10, Color(255,97,244), TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER, 1, Color(0,0,0))
 		draw.SimpleTextOutlined(v:GetUserGroup(), "ChatFont", posi.x, posi.y - -5, Color(255,97,244), TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER, 1, Color(0,0,0))
-			end
 		end
 	end
+end
 return 
 end
 hook.Add("HUDPaint", "ESP", ESP)
